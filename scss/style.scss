@@ -16,3 +16,9 @@
 @use 'sections/portfolio';
 @use 'sections/get-started';
 @use 'sections/footer';
+
+$primary: #ff000;
+
+.test-1 {
+  color: $primary;
+}
