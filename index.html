@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo Bootstrap</title>
+    <title>Learning bootstrap v5 with sass</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +17,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="assets/css/images/arts/anding Page_Outline.png" alt="logo image">
+        <img src="images/logo.png" alt="logo image">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,9 +33,9 @@
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
-          +1 9876543210
+          +1 728365413
           <span>
-            <i class="fa fa-phone-alt"></i>
+            <i class="fas fa-phone-alt"></i>
           </span>
         </button>
       </div>
@@ -51,9 +52,10 @@
       <!-- START THE CONTENT FOR THE INTRO  -->
       <div class="col-md-6 intros text-start">
         <h1 class="display-2">
-          <span class="display-2--intro">Hey!, I'm Lam</span>
+          <span class="display-2--intro">Hey!, I'm Patrick</span>
           <span class="display-2--description lh-base">
-            I am a self-taught developer. My goal is to get a career in the IT field programing and developing super things. 
+            this is a multi-purpose responsive layout created with bootstrap v5. 
+            (here your can place your description text)
           </span>
         </h1>
         <button type="button" class="rounded-pill btn-rounded">Get in Touch
@@ -63,8 +65,8 @@
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
-          <img src="assets/css/images/arts/Coding _Two Color.png" alt="video illustration" class="img-fluid">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle">
+          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
             <span>
               <i class="fas fa-play-circle"></i>
             </span>
@@ -750,7 +752,7 @@
       <div class="row text-center text-white">
         <div class="col-12">
           <div class="footer-bottom__copyright">
-            &COPY; Copyright 2021 <a href="#">Multi-purpose Company</a> | Created by <a href="http://twitter.com/itsmuriungi" target="_blank">Muriungi</a>
+            &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://twitter.com/itsmuriungi" target="_blank">Muriungi</a>
           </div>
         </div>
       </div>
@@ -765,8 +767,19 @@
 
 
 
+   
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
 
-    <script src ="/assets/vendors/js/glightbox.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    
+    </script>
+     <script src="assets/js/"></script>
 </body>
 </html>
