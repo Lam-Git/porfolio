@@ -15,3 +15,14 @@ npm install bootstrap --save
 4)Autoprefixer
 https://www.npmjs.com
 npm install postcss-cli autoprefixer
+
+5. GLightbox
+   https://www.npmjs.com/package/glightbox
+   npm install glightbox
+
+Used:
+manypixels
+https://www.manypixels.co/our-work
+For cartoon clip-art images
+
+---
