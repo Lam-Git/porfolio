@@ -26,3 +26,7 @@ https://www.manypixels.co/our-work
 For cartoon clip-art images
 
 ---
+
+getwave
+https://getwaves.io
+For the waves used in the website
