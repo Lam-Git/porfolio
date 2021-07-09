@@ -20,6 +20,12 @@ npm install postcss-cli autoprefixer
    https://www.npmjs.com/package/glightbox
    npm install glightbox
 
+6. 6 section -Accordion:
+   https://getbootstrap.com/docs/5.0/components/accordion/
+
+"Example" - Template
+copy and paste the entire template.
+
 Used:
 manypixels
 https://www.manypixels.co/our-work
